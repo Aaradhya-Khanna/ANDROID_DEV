@@ -1,0 +1,42 @@
+fun main()
+{
+    val age=10
+    candles(age)
+    layers(age)
+    val thick=5
+    bottom(age,thick)
+}
+fun candles(age:Int)
+{
+    print(" ")
+    repeat(age)
+    {
+        print("'")
+    }
+    println()
+    print(" ")
+    repeat(age)
+    {
+        print("|")
+	}
+    println()
+}
+fun layers(age:Int)
+{
+    repeat(age+2)
+    {
+        print("=")
+    }
+    println()
+}
+fun bottom(age:Int,thick:Int)
+{
+    repeat(thick)
+    {
+        repeat(age+2)
+        {
+            print("@")
+        }
+        println()
+    }
+}
