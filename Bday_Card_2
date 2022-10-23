@@ -1,0 +1,21 @@
+fun main() {
+    val border="/"
+    printBorder1(border)
+    println("\nHappy Birthday, Jhansi!")
+    val border2="'-._.-'"
+    printBorder2(border2,4)
+}
+fun printBorder1(border:String)
+{
+    repeat(28)
+    {
+    	print(border)
+    }
+}
+fun printBorder2(border:String,time:Int)
+{
+    repeat(time)
+    {
+    	print(border)
+    }
+}
