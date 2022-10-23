@@ -1,0 +1,14 @@
+fun main() {
+    val age=5;
+    val name="ROVER"
+    println("Happy birthday ${name}")
+    println("   ,,,,,   ")
+    println("   |||||   ")
+    println(" =========")
+    println("@@@@@@@@@@@")
+    println("{~@~@~@~@~}")
+    println("@@@@@@@@@@@")
+    println("${age} is the best time to enjoy life")
+    val age2=5*365
+    println("${age2} is the best time to enjoy life")
+}
